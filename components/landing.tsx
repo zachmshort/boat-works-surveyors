@@ -5,6 +5,8 @@ const LandingPage = () => {
   return (
     <div className="">
       <Image src={home} alt="landing page" fill className="object-cover" />
+      <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+      {/* Overlay */}
       <div className="flex justify-evenly items-center min-h-screen">
         <section className="z-10 text-lg flex flex-col items-center">
           <div>We go over your boat ...</div>
