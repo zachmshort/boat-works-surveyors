@@ -6,7 +6,12 @@ const LandingPage = () => {
     <div className="">
       <Image src={home} alt="landing page" fill className="object-cover" />
       <div className="flex justify-evenly items-center min-h-screen">
-        <section className="z-10 text-lg">test</section>
+        <section className="z-10 text-lg flex flex-col items-center">
+          <div>We go over your boat ...</div>
+          <div className="text-lg lg:text-2xl">
+            Professional and Experienced Boat Surveyors
+          </div>
+        </section>
         <section className="z-10">
           <ContactForm />
         </section>

@@ -6,7 +6,7 @@ const outfit = Outfit({
 });
 const Navbar = () => {
   return (
-    <div className={` ${outfit.className} absolute w-screen p-6 z-10`}>
+    <div className={` ${outfit.className} absolute w-screen z-10 p-2`}>
       <Logo />
       <div className="absolute top-5 right-5">(757)-589-3086</div>
     </div>
